@@ -1,0 +1,113 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>接口测试</title>
+<script type="application/javascript" src="js/jquery.js"></script>
+<style type="text/css">
+.col {
+	display:inline-block;
+	width:250px;
+}
+.col2 {
+	display:inline-block;
+	width:400px;
+}
+.result_bonus,.result_info,.result_time,.result_verification_code {
+	margin-top:20px;
+}
+form input{padding:3px;}
+body{margin-left:40px;}
+form span{margin:2px 0 4px 0;display:block;}
+form em{ font-style:normal;color:#000;font-weight:normal;}
+form span{color:#63F;font-weight:bold;}
+
+</style>
+</head>
+<body>
+<h2>查询优惠券</h2>
+<form id="form_bonus" name="form1" method="post" action="cha.php">
+  <span>地址: <em class="url_site">http://localhost/codeIgnite_yjb/DDZ_api/index</em></span>
+  <span>参数: <em>{'params':'{\"action\":\"club_my_doudizhu\",\"uid\":75,\"token\":\"rbbpjajilhmvauimrnzpynmzxuecjgvj\"}'}</em></span>
+
+  <label>
+  <input name="act" type="hidden" value="bonus" />
+  <input type="button" name="button" class="button_submit" form_n="form_bonus" value="测试接口" />
+  </label>
+</form>
+
+<h2>查找个人信息</h2>
+<form id="form_person" name="form1" method="post" action="cha.php">
+  <label>
+  <input type="text" name="search" id="search"  style="width:600px" placeholder="请输入user_id或者手机号"/>
+  </label>
+  <label>
+  <input name="act" type="hidden" value="info" />
+  <input type="button" name="button" class="button_submit" form_n="form_person" value="提交" />
+  </label>
+</form>
+<h2>时间</h2>
+<form id="form_time" name="form1" method="post" action="cha.php">
+  <label>
+  <input type="text" name="search" id="search"  style="width:600px" placeholder="请输入10位整数"/>
+  </label>
+  <label>
+  <input name="act" type="hidden" value="time" />
+  <input type="button" name="button" class="button_submit" form_n="form_time" value="提交" />
+  </label>
+</form>
+<h2>根据手机号查验证码</h2>
+<form id="form_verification_code" name="form1" method="post" action="cha.php">
+  <label>
+  <input type="text" name="search" id="search"  style="width:600px" placeholder="请输入手机号码"/>
+  </label>
+  <label>
+  <input name="act" type="hidden" value="verification_code" />
+  <input type="button" name="button" class="button_submit" form_n="form_verification_code" value="提交" />
+  </label>
+</form>
+<script type="application/javascript">
+
+
+$(".button_submit").each(function ()
+{
+	
+	$(this).click(function ()
+	{
+		
+		html=$(this).parent().parent();
+		url_site=html.find(".url_site").html();
+		data=html.find("#search").val();
+	
+	
+		
+		form_n=$("#"+$(this).attr("form_n"));
+		
+		act=$("#"+$(this).attr("form_n"));
+		
+		/*if($(".result_"+act).length==0)
+		act.append("<div class='result_"+act+"'></div>");*/
+		
+		
+		
+		//$(".result_"+act).html('<img src="../images/loadding.gif"/>');
+		
+		//data={'action':'friend_relation','uid':4,'token':'rbbpjajilhmvauimrnzpynmzxuecjgvj','fid':2,'feedback_mark':2};
+		
+		
+		
+		
+		//str='{"action":"friend_relation","uid":"4","token":"rbbpjajilhmvauimrnzpynmzxuecjgvj"}'
+		//data=$.parseJSON(str);
+	
+		data={'params':'{\"action\":\"club_my_doudizhu\",\"uid\":75,\"token\":\"rbbpjajilhmvauimrnzpynmzxuecjgvj\"}'};
+		$.post(url_site,data,function (res)
+		{
+			$(".result_"+act).html(res.info);
+		},"json")
+	})
+})
+</script>
+</body>
+</html>
