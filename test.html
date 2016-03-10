@@ -27,13 +27,14 @@ form span{color:#63F;font-weight:bold;}
 </head>
 <body>
 <h2>查询优惠券</h2>
-<form id="form_bonus" name="form1" method="post" action="cha.php">
+<form id="club_my_doudizhu" name="form1" method="post" action="cha.php">
   <span>地址: <em class="url_site">http://localhost/codeIgnite_yjb/DDZ_api/index</em></span>
-  <span>参数: <em>{'params':'{\"action\":\"club_my_doudizhu\",\"uid\":75,\"token\":\"rbbpjajilhmvauimrnzpynmzxuecjgvj\"}'}</em></span>
+  <!--<span>地址: <em class="url_site">http://139.196.197.23:8091/DDZ_api/index</em></span>-->
+  <span>参数: <em class="params">{'params':'{\"action\":\"club_my_doudizhu\",\"uid\":75,\"token\":\"rbbpjajilhmvauimrnzpynmzxuecjgvj\"}'}</em></span>
 
   <label>
   <input name="act" type="hidden" value="bonus" />
-  <input type="button" name="button" class="button_submit" form_n="form_bonus" value="测试接口" />
+  <input type="button" name="button" class="button_submit" form_n="club_my_doudizhu" value="测试接口" />
   </label>
 </form>
 
@@ -68,41 +69,18 @@ form span{color:#63F;font-weight:bold;}
   </label>
 </form>
 <script type="application/javascript">
-
-
 $(".button_submit").each(function ()
 {
-	
 	$(this).click(function ()
-	{
-		
+	{	
 		html=$(this).parent().parent();
 		url_site=html.find(".url_site").html();
-		data=html.find("#search").val();
-	
-	
-		
 		form_n=$("#"+$(this).attr("form_n"));
-		
 		act=$("#"+$(this).attr("form_n"));
-		
-		/*if($(".result_"+act).length==0)
-		act.append("<div class='result_"+act+"'></div>");*/
-		
-		
-		
-		//$(".result_"+act).html('<img src="../images/loadding.gif"/>');
-		
-		//data={'action':'friend_relation','uid':4,'token':'rbbpjajilhmvauimrnzpynmzxuecjgvj','fid':2,'feedback_mark':2};
-		
-		
-		
-		
-		//str='{"action":"friend_relation","uid":"4","token":"rbbpjajilhmvauimrnzpynmzxuecjgvj"}'
-		//data=$.parseJSON(str);
-	
-		data={'params':'{\"action\":\"club_my_doudizhu\",\"uid\":75,\"token\":\"rbbpjajilhmvauimrnzpynmzxuecjgvj\"}'};
-		$.post(url_site,data,function (res)
+		type=$(this).attr("form_n");
+		if(type=='club_my_doudizhu')
+		params={'params':'{\"action\":\"club_my_doudizhu\",\"uid\":75,\"token\":\"rbbpjajilhmvauimrnzpynmzxuecjgvj\"}'};
+		$.post(url_site,params,function (res)
 		{
 			$(".result_"+act).html(res.info);
 		},"json")

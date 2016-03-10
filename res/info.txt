@@ -1,4 +1,4 @@
-CREATE TABLE `ddz_board` (
+﻿CREATE TABLE `ddz_board` (
   `bid` int(11) NOT NULL DEFAULT '0' COMMENT '牌桌id',
   `bname` varchar(30) DEFAULT NULL COMMENT '牌桌名',
   `createrid` int(11) NOT NULL DEFAULT '0'  COMMENT '创建者ID',
