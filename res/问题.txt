@@ -1,0 +1,1 @@
+1.stat_card_collection也要加一个type 
