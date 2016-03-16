@@ -1,12 +1,4 @@
-这个是德扑的
-18:14:17
-夢の翔 2016/3/9 18:14:17
-#define HOST		"139.196.181.78"
-#define PORT		3306
-#define USER		"admin"
-#define PASSWD		"12344321"
-#define CHARSET		"GBK"
-#define SCHEMA		"yjb"
+
 
 
 clubid":1/*俱乐部ID,非0表示俱乐部建局*/,

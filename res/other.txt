@@ -1,3 +1,12 @@
+ftp:
+139.196.181.78
+php 123456
+
+
+1.stat_card_collection也要加一个type 
+2.http://note.youdao.com/groupshare/?token=0D327A67B4BE46998364E165C6EE1942&gid=14327211  这个就是这边需要的接口很需要更改的接口。
+
+
 比如，cards 是 C2|C3|C4|C5|C6|C7|C8|C9|C10|C11|C12|C13|C14
 A = 14 
 J = 11
