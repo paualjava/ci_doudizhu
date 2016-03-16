@@ -1,0 +1,23 @@
+个人信息
+{
+	action:'stat_my_info_doudizhu',
+	uid:'80',
+	token:'token',
+}
+
+
+数据统计
+{
+	action:'stat_my_statistics_doudizhu',
+	uid:'80',
+	token:'token',
+}
+
+
+个人战绩
+{
+	action:'stat_my_person_doudizhu',
+	uid:'80',
+	token:'token',
+	date:'20160316',
+}
