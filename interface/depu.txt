@@ -1,0 +1,9 @@
+µÂÆË
+
+1.É¾³ýÊÕ²Ø
+{
+	action:'borad_collection_delete',
+	uccid:'1' ÊÕ²Ø±àºÅ
+	uid:'50'
+	token:'token',
+}
