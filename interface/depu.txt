@@ -225,7 +225,7 @@
 	  bool(true)
 	}
 
-3.回放
+4.回放
 {
 	action:'getPlayBack',
 	bid:'1759'
