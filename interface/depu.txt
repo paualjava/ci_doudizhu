@@ -7,3 +7,106 @@
 	uid:'50'
 	token:'token',
 }
+2.数据统计
+{
+	action:'getUserInfoStatistics',
+	token:'token'
+	uid:'11'
+	t_uid:'11'
+}
+
+	返回值:
+	
+	array(2) {
+	  [0]=>
+	  array(51) {
+	    ["uid"]=>
+	    string(2) "11"
+	    ["uname"]=>
+	    string(5) "Paean"
+	    ["password"]=>
+	    string(32) "ff81e7325ce0daf8ce8f02c03d20a25b"
+	    ["salt"]=>
+	    string(6) "ctgarz"
+	    ["avatar"]=>
+	    string(47) "resource/upload/photos/20160216144434281800.png"
+	    ["avatar_thumb"]=>
+	    string(52) "resource/upload/photos/20160216144434281800thumb.png"
+	    ["sex"]=>
+	    string(1) "1"
+	    ["mobile"]=>
+	    string(11) "18217282295"
+	    ["email"]=>
+	    string(16) "845223604@qq.com"
+	    ["region_id"]=>
+	    string(2) "32"
+	    ["province"]=>
+	    string(1) "0"
+	    ["city"]=>
+	    string(1) "0"
+	    ["district"]=>
+	    string(1) "0"
+	    ["token"]=>
+	    string(32) "nhngyhrcsxnczufjyjewubwxomrlisvk"
+	    ["money"]=>
+	    string(4) "4014"
+	    ["add_time"]=>
+	    string(19) "2015-12-05 19:47:24"
+	    ["login_time"]=>
+	    string(19) "2016-03-16 14:40:42"
+	    ["signature"]=>
+	    string(81) "添置世博会园区建设和平公斤磨破途径是深思熟虑翡翠城方法"
+	    ["wallpapers"]=>
+	    string(81) "[{"wallid":6080,"wallpath":"resource\/upload\/photos\/20160126165115822053.png"}]"
+	    ["diamond"]=>
+	    string(4) "8910"
+	    ["grade_name"]=>
+	    string(9) "小鱼苗"
+	    ["join_club_count"]=>
+	    string(1) "0"
+	    ["safemode"]=>
+	    string(1) "1"
+	    ["last_device_id"]=>
+	    string(36) "77F2B94A-6F97-4673-A2E9-28F8B7FAC5A4"
+	    ["is_verify_friend"]=>
+	    string(1) "2"
+	    ["invite_code"]=>
+	    string(0) ""
+	    ["card_type"]=>
+	    string(1) "1"
+	    ["card_month_begin_time"]=>
+	    string(19) "2016-02-29 16:11:55"
+	    ["card_month_end_time"]=>
+	    string(19) "2016-03-30 16:11:55"
+	    ["card_year_begin_time"]=>
+	    string(19) "0000-00-00 00:00:00"
+	    ["card_year_end_time"]=>
+	    string(19) "0000-00-00 00:00:00"
+	    ["card_max_board"]=>
+	    string(1) "5"
+	    ["card_max_club"]=>
+	    string(1) "5"
+	    ["card_max_club_member"]=>
+	    string(3) "100"
+	    ["card_max_board_round_collet"]=>
+	    string(3) "200"
+	    ["total_money"]=>//总盈利
+	    string(4) "1534"  
+	    ["total_hand_single"]=>  //单手最大
+	    string(4) "7260"  
+	    ["total_bid_max"]=> //单局最大
+	    string(4) "4158"
+	    ["total_hand"]=>//总手数
+	    string(4) "1638"
+	    ["percent_shenglv"]=>//胜率
+	    string(6) "48.31%"
+	    ["percent_ruchi"]=>//入池率
+	    string(6) "60.20%"
+	    ["percent_tanpai"]=>//摊牌率
+	    string(6) "48.53%"
+	    ["percent_qipai"]=>//弃牌率
+	    string(6) "39.80%"
+	  }
+	  ["isMyFriend"]=>
+	  bool(true)
+	}
