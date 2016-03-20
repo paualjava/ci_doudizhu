@@ -1,19 +1,19 @@
-µÂÆË
+å¾·æ‰‘
 
-1.É¾³ıÊÕ²Ø
+1.åˆ é™¤æ”¶è—
 {
 	action:'borad_collection_delete',
-	uccid:'1' ÊÕ²Ø±àºÅ
+	uccid:'1' æ”¶è—ç¼–å·
 	uid:'50'
 	token:'token',
 }
 
-  	·µ»ØÖµ:
+  	è¿”å›å€¼:
 	status = 0;
-	message = "É¾³ıÊÕ²Ø³É¹¦";
+	message = "åˆ é™¤æ”¶è—æˆåŠŸ";
 
 
-2.¸öÈËĞÅÏ¢
+2.ä¸ªäººä¿¡æ¯
 {
 	action:'getUserInfoWithUserID',
 	token:'token'
@@ -21,7 +21,7 @@
 	t_uid:'11'
 }
 
-	·µ»ØÖµ:
+	è¿”å›å€¼:
 	
 		
 	array(46) {
@@ -54,7 +54,7 @@
 	  ["login_time"]=>
 	  string(19) "2016-03-16 14:40:42"
 	  ["signature"]=>
-	  string(81) "ÌíÖÃÊÀ²©»áÔ°Çø½¨ÉèºÍÆ½¹«½ïÄ¥ÆÆÍ¾¾¶ÊÇÉîË¼ÊìÂÇôä´ä³Ç·½·¨"
+	  string(81) "æ·»ç½®ä¸–åšä¼šå›­åŒºå»ºè®¾å’Œå¹³å…¬æ–¤ç£¨ç ´é€”å¾„æ˜¯æ·±æ€ç†Ÿè™‘ç¿¡ç¿ åŸæ–¹æ³•"
 	  ["wallpapers"]=>
 	  string(81) "[{"wallid":6080,"wallpath":"resource\/upload\/photos\/20160126165115822053.png"}]"
 	  ["diamond"]=>
@@ -76,7 +76,7 @@
 	  ["play_count"]=>
 	  string(1) "0"
 	  ["grade_name"]=>
-	  string(9) "Ğ¡ÓãÃç"
+	  string(9) "å°é±¼è‹—"
 	  ["join_club_count"]=>
 	  string(1) "0"
 	  ["safemode"]=>
@@ -105,23 +105,23 @@
 	  string(3) "100"
 	  ["card_max_board_round_collet"]=>
 	  string(3) "200"
-	  ["percent_shenglv"]=>  //Ê¤ÂÊ
+	  ["percent_shenglv"]=>  //èƒœç‡
 	  string(6) "48.31%"
-	  ["percent_tanpai"]=>//Ì¯ÅÆÂÊ
+	  ["percent_tanpai"]=>//æ‘Šç‰Œç‡
 	  string(6) "48.53%"
-	  ["percent_ruchi"]=>//Èë³ØÂÊ
+	  ["percent_ruchi"]=>//å…¥æ± ç‡
 	  string(6) "60.20%"
-	  ["percent_qipai"]=>//ÆúÅÆÂÊ
+	  ["percent_qipai"]=>//å¼ƒç‰Œç‡
 	  string(6) "39.80%"
-	  ["total_money"]=>//×ÜÓ¯Àû
+	  ["total_money"]=>//æ€»ç›ˆåˆ©
 	  string(4) "1534"
 	  ["region_name"]=>
-	  string(6) "ÖØÇì"
+	  string(6) "é‡åº†"
 	}
 
 
 
-3.Êı¾İÍ³¼Æ
+3.æ•°æ®ç»Ÿè®¡
 {
 	action:'getUserInfoStatistics',
 	token:'token'
@@ -129,7 +129,7 @@
 	t_uid:'11'
 }
 
-	·µ»ØÖµ:
+	è¿”å›å€¼:
 	
 	array(2) {
 	  [0]=>
@@ -169,13 +169,13 @@
 	    ["login_time"]=>
 	    string(19) "2016-03-16 14:40:42"
 	    ["signature"]=>
-	    string(81) "ÌíÖÃÊÀ²©»áÔ°Çø½¨ÉèºÍÆ½¹«½ïÄ¥ÆÆÍ¾¾¶ÊÇÉîË¼ÊìÂÇôä´ä³Ç·½·¨"
+	    string(81) "æ·»ç½®ä¸–åšä¼šå›­åŒºå»ºè®¾å’Œå¹³å…¬æ–¤ç£¨ç ´é€”å¾„æ˜¯æ·±æ€ç†Ÿè™‘ç¿¡ç¿ åŸæ–¹æ³•"
 	    ["wallpapers"]=>
 	    string(81) "[{"wallid":6080,"wallpath":"resource\/upload\/photos\/20160126165115822053.png"}]"
 	    ["diamond"]=>
 	    string(4) "8910"
 	    ["grade_name"]=>
-	    string(9) "Ğ¡ÓãÃç"
+	    string(9) "å°é±¼è‹—"
 	    ["join_club_count"]=>
 	    string(1) "0"
 	    ["safemode"]=>
@@ -204,35 +204,35 @@
 	    string(3) "100"
 	    ["card_max_board_round_collet"]=>
 	    string(3) "200"
-	    ["total_money"]=>//×ÜÓ¯Àû
+	    ["total_money"]=>//æ€»ç›ˆåˆ©
 	    string(4) "1534"  
-	    ["total_hand_single"]=>  //µ¥ÊÖ×î´ó
+	    ["total_hand_single"]=>  //å•æ‰‹æœ€å¤§
 	    string(4) "7260"  
-	    ["total_bid_max"]=> //µ¥¾Ö×î´ó
+	    ["total_bid_max"]=> //å•å±€æœ€å¤§
 	    string(4) "4158"
-	    ["total_hand"]=>//×ÜÊÖÊı
+	    ["total_hand"]=>//æ€»æ‰‹æ•°
 	    string(4) "1638"
-	    ["percent_shenglv"]=>//Ê¤ÂÊ
+	    ["percent_shenglv"]=>//èƒœç‡
 	    string(6) "48.31%"
-	    ["percent_ruchi"]=>//Èë³ØÂÊ
+	    ["percent_ruchi"]=>//å…¥æ± ç‡
 	    string(6) "60.20%"
-	    ["percent_tanpai"]=>//Ì¯ÅÆÂÊ
+	    ["percent_tanpai"]=>//æ‘Šç‰Œç‡
 	    string(6) "48.53%"
-	    ["percent_qipai"]=>//ÆúÅÆÂÊ
+	    ["percent_qipai"]=>//å¼ƒç‰Œç‡
 	    string(6) "39.80%"
 	  }
 	  ["isMyFriend"]=>
 	  bool(true)
 	}
 
-4.»Ø·Å
+4.å›æ”¾
 {
 	action:'getPlayBack',
 	bid:'1759'
 	seq:'14'
 }
 
-	·µ»ØÖµ:
+	è¿”å›å€¼:
 	
 	array(2) {
 	  [0]=>
@@ -302,4 +302,43 @@
 		string(5) "10490"
 	  }
 	}
+
+5.æ”¶è—å¥½å‹åˆ—è¡¨
+{
+	action:'friendCollectList',
+	uid:'11'
+	token:'token'
+}
+
+	è¿”å›å€¼:
+	
+        array(1) {
+          [0]=>
+          array(6) {
+            ["cid"]=>
+            string(1) "6"
+            ["uid_from"]=>
+            string(2) "11"
+            ["uid_to"]=>
+            string(2) "87"
+            ["initiating_time"]=>
+            string(19) "2016-03-20 09:32:15"
+            ["user_to_name"]=>
+            string(6) "zd"
+            ["user_to_avatar_thumb"]=>
+            string(51) "resource/upload/photos/2016020222105247303thumb.png"
+          }
+        }
+
+6.æ”¶è—å¥½å‹æ·»åŠ 
+{
+	action:'friendCollectAdd',
+	uid:'11'
+	t_uid:'87'
+	token:'token'
+}
+
+	è¿”å›å€¼:
+        
+	{"status":0,"message":"æ”¶è—å¥½å‹æˆåŠŸ","data":""}
 
