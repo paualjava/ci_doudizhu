@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `friend_collect` (
+  `cid` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `uid_from` int(11) unsigned NOT NULL,
+  `uid_to` int(11) unsigned NOT NULL COMMENT '目标会员ID',
+  `initiating_time` datetime NOT NULL COMMENT '发起时间',
+  PRIMARY KEY (`cid`),
+  KEY `uid_from` (`uid_from`),
+  KEY `uid_to` (`uid_to`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='好友收藏表' AUTO_INCREMENT=8 ;
