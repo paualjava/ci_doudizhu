@@ -121,64 +121,64 @@
 	  array(1) {
 	    [0]=>
 	    array(29) {
-	      ["round_id"]=>
+	      ["round_id"]=> 
 	      string(1) "6"
-	      ["bid"]=>
+	      ["bid"]=>     //牌桌
 	      string(2) "71"
-	      ["seq"]=>
+	      ["seq"]=>     //牌桌的一局
 	      string(1) "1"
 	      ["starttime"]=>
 	      string(10) "1457939476"
-	      ["seat1_uid"]=>
+	      ["seat1_uid"]=>   //座位1 uid
 	      string(2) "80"
-	      ["seat2_uid"]=>
+	      ["seat2_uid"]=>   //座位2 uid
 	      string(2) "82"
-	      ["seat3_uid"]=>
+	      ["seat3_uid"]=>   //座位3 uid
 	      string(2) "74"
-	      ["seat4_uid"]=>
+	      ["seat4_uid"]=>   //座位4 uid
 	      string(1) "0"
-	      ["seat1_money"]=>
+	      ["seat1_money"]=>   //座位1 赢的钱
 	      string(3) "120"
-	      ["seat2_money"]=>
+	      ["seat2_money"]=>   //座位2 赢的钱
 	      string(3) "-60"
-	      ["seat3_money"]=>
+	      ["seat3_money"]=>   //座位3 赢的钱
 	      string(3) "-60"
-	      ["seat4_money"]=>
+	      ["seat4_money"]=>   //座位4 赢的钱
 	      string(1) "0"
-	      ["selected_uid"]=>
+	      ["selected_uid"]=>   //首位叫档uid
 	      string(1) "1"
-	      ["landlord_uid"]=>
+	      ["landlord_uid"]=>   //地主 did
 	      string(1) "1"
-	      ["basecard"]=>
+	      ["basecard"]=>    //底牌，如:S1|G0|H13|C4
 	      string(9) "S6|S4|C13"
-	      ["points"]=>
-	      string(2) "30"
-	      ["wisdomking"]=>
+	      ["points"]=>      //终底分
+	      string(2) "30" 
+	      ["wisdomking"]=>  //明王
 	      string(1) "0"
-	      ["pick"]=>
+	      ["pick"]=>       //闷撂1,头撂2
 	      string(1) "0"
-	      ["waste"]=>
+	      ["waste"]=>     //荒番
 	      string(1) "0"
-	      ["spread"]=>
+	      ["spread"]=>    //摊打
 	      string(1) "0"
-	      ["checkin"]=>
+	      ["checkin"]=>   //报到1,双报到2
 	      string(1) "0"
-	      ["spring"]=>
+	      ["spring"]=>    //是否春天，0没春天，1有春天
 	      string(1) "0"
-	      ["multiple"]=>
+	      ["multiple"]=>  //倍数
 	      string(1) "1"
-	      ["winner_seatid"]=>
+	      ["winner_seatid"]=>  //胜利者坐位ID(最先出完手牌)
 	      string(2) "80"
 	      ["date"]=>
 	      string(10) "2016-03-16"
 	      ["time"]=>
 	      string(19) "0000-00-00 00:00:00"
 	      ["avatar_seat1_thumb"]=>
-	      string(51) "resource/upload/photos/2016012916561567017thumb.png"
+	      string(51) "resource/upload/photos/2016012916561567017thumb.png"  //座位1头像
 	      ["avatar_seat2_thumb"]=>
-	      string(52) "resource/upload/photos/20160129180125867768thumb.png"
+	      string(52) "resource/upload/photos/20160129180125867768thumb.png" //座位2头像
 	      ["avatar_seat3_thumb"]=>
-	      string(52) "resource/upload/photos/20160126163431653657thumb.png"
+	      string(52) "resource/upload/photos/20160126163431653657thumb.png" //座位3头像
 	    }
 	  ["allhand"]=>
 	  string(1) "1"
