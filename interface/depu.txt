@@ -341,4 +341,16 @@
 	返回值:
         
 	{"status":0,"message":"收藏好友成功","data":""}
+	
+	
+7.当前用户创建了多少个没结束的牌局接口
+{
+	action:'userBoardNoEnd',
+	uid:'11'
+	t_uid:'87'
+	token:'token'
+}
 
+	返回值:
+        
+	{"status":0,"message":"查询成功","data":["247"]}
