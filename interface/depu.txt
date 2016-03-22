@@ -1,4 +1,4 @@
-德扑
+﻿德扑
 
 1.删除收藏
 {
@@ -236,72 +236,85 @@
 	
 	array(2) {
 	  [0]=>
-	  array(15) {
-		["id"]=>
-		string(5) "27300"
-		["bid"]=>
-		string(4) "1759"
-		["seq"]=>
-		string(2) "14"
-		["uid"]=>
-		string(2) "75"
-		["opertype"]=>
-		string(1) "1"
-		["opercontext"]=>
-		string(1) "1"
-		["money"]=>
-		string(3) "265"
-		["spentmoney"]=>
-		string(1) "2"
-		["moneypool"]=>
-		string(1) "4"
-		["createtime"]=>
-		string(19) "2016-03-16 08:33:34"
-		["roundstatus"]=>
-		string(1) "1"
-		["uname"]=>
-		string(3) "ayo"
-		["avatar_thumb"]=>
-		string(51) "resource/upload/photos/2016012114492323041thumb.png"
-		["sex"]=>
-		string(1) "2"
-		["diamond"]=>
-		string(5) "10310"
+	  array(18) {
+	    ["id"]=>
+	    string(4) "6871"
+	    ["bid"]=>
+	    string(4) "1759"
+	    ["seq"]=>
+	    string(2) "14"
+	    ["uid"]=>
+	    string(2) "76"
+	    ["opertype"]=>   //opertype 1 跟注 2 弃牌 3 看牌 4 加注 5 ALLIN 6 站起 7 翻盘 8 转牌 9 河牌 10 摊牌
+	    string(1) "1"
+	    ["opercontext"]=>
+	    string(1) "1"
+	    ["money"]=>
+	    string(3) "131"
+	    ["spentmoney"]=>
+	    string(1) "2"
+	    ["moneypool"]=>
+	    string(1) "4"
+	    ["createtime"]=>
+	    string(19) "2016-03-16 08:33:34"
+	    ["roundstatus"]=>   // roundstatus 牌桌状态 0 未开始 1 开始中 2 翻盘 3 转牌 4 河牌 5 摊牌
+	    string(1) "1"
+	    ["status"]=>
+	    string(1) "2"
+	    ["seat"]=>
+	    string(1) "4"
+	    ["cards"]=>      //手牌
+	    string(7) "C14|H10"
+	    ["cardtype"]=>   //牌型
+	    string(1) "3"
+	    ["relatecards"]=>
+	    string(19) "C14|H14|S14|H10|S10"
+	    ["uname"]=>
+	    string(3) "Shy"
+	    ["avatar_thumb"]=>
+	    string(52) "resource/upload/photos/20160122125120737885thumb.png"
 	  }
 	  [1]=>
-	  array(15) {
-		["id"]=>
-		string(5) "27301"
-		["bid"]=>
-		string(4) "1759"
-		["seq"]=>
-		string(2) "14"
-		["uid"]=>
-		string(2) "76"
-		["opertype"]=>
-		string(1) "4"
-		["opercontext"]=>
-		string(1) "2"
-		["money"]=>
-		string(3) "129"
-		["spentmoney"]=>
-		string(1) "4"
-		["moneypool"]=>
-		string(1) "6"
-		["createtime"]=>
-		string(19) "2016-03-16 08:33:36"
-		["roundstatus"]=>
-		string(1) "1"
-		["uname"]=>
-		string(3) "Shy"
-		["avatar_thumb"]=>
-		string(52) "resource/upload/photos/20160122125120737885thumb.png"
-		["sex"]=>
-		string(1) "2"
-		["diamond"]=>
-		string(5) "10490"
+	  array(18) {
+	    ["id"]=>
+	    string(4) "6872"
+	    ["bid"]=>
+	    string(4) "1759"
+	    ["seq"]=>
+	    string(2) "14"
+	    ["uid"]=>
+	    string(2) "75"
+	    ["opertype"]=>
+	    string(1) "1"
+	    ["opercontext"]=>
+	    string(1) "1"
+	    ["money"]=>
+	    string(3) "266"
+	    ["spentmoney"]=>
+	    string(1) "2"
+	    ["moneypool"]=>
+	    string(1) "4"
+	    ["createtime"]=>
+	    string(19) "2016-03-16 08:33:34"
+	    ["roundstatus"]=>
+	    string(1) "1"
+	    ["status"]=>
+	    string(1) "2"
+	    ["seat"]=>
+	    string(1) "9"
+	    ["cards"]=>
+	    string(7) "H11|D10"
+	    ["cardtype"]=>
+	    string(1) "7"
+	    ["relatecards"]=>
+	    string(19) "H14|S14|H11|C11|C12"
+	    ["uname"]=>
+	    string(3) "ayo"
+	    ["avatar_thumb"]=>
+	    string(51) "resource/upload/photos/2016012114492323041thumb.png"
 	  }
 	}
+
 
 5.收藏好友列表
 {

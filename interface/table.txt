@@ -1,3 +1,19 @@
+﻿CREATE TABLE `shop_buy_info` (
+  `bid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增id',
+  `uid` int(10) NOT NULL COMMENT '会员编号',
+  `product_id` int(10) NOT NULL COMMENT '产品编号',
+  `serial_number` varchar(200) NOT NULL COMMENT '序列号',
+  `receipt_data` text COMMENT '交易凭证',
+  `type` tinyint(1) unsigned NOT NULL COMMENT '1:开始 2:成功 3:失败',
+  `postdate` int(11) unsigned NOT NULL COMMENT '时间',
+  PRIMARY KEY (`bid`),
+  KEY `uid` (`uid`),
+  KEY `product_id` (`product_id`),
+  KEY `postdate` (`postdate`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='购买' AUTO_INCREMENT=1;
+
+
+
 CREATE TABLE IF NOT EXISTS `friend_collect` (
   `cid` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `uid_from` int(11) unsigned NOT NULL,
