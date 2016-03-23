@@ -1,4 +1,7 @@
-﻿CREATE TABLE `shop_buy_info` (
+﻿ALTER TABLE `shop_buy_info` ADD `bundle` VARCHAR(800) NOT NULL COMMENT 'bundle' AFTER `product_id`;
+
+
+CREATE TABLE `shop_buy_info` (
   `bid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增id',
   `uid` int(10) NOT NULL COMMENT '会员编号',
   `product_id` int(10) NOT NULL COMMENT '产品编号',
