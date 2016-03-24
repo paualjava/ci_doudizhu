@@ -6,8 +6,9 @@
 {
 	action:'buyStart',
 	uid:'50'
-	product_id:'10'
-	bundle:’bundle’
+	token:'token'
+	product_id:'com.zby.texaspoker.8'
+	bundle:’com.zby.texaspoker’
 }
 
   	返回值:
@@ -20,6 +21,7 @@
 	action:'buyFailure',
 	serial_number:'serial_number'
 	uid:'11'
+	token:'token'
 }
 
 	返回值:
@@ -31,12 +33,11 @@
 3.客户端发起了交易。交易成功后，我会将用户的id,这次交易的序列号，还有苹果那边的返回的交易凭证上传。服务器就需要去验证凭证了，将凭证的信息跟你服务器的数据库的数据进行对比。
 {
 	action:'shopBuyCheck',
-	serial_number:'serial_number'
 	uid:'11'
-	product_id:11
-	bundle_id:'bundle_id'
+	token:'token'
+	serial_number:'serial_number'
+	apptransactionid:'1332'
 	receipt_data:'receipt_data'
-
 }
 
 	返回值:
