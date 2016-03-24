@@ -320,43 +320,48 @@
 {
 	action:'friendCollectList',
 	uid:'11'
+	t_uid:'11'
+	start:'0'
+	count:'30'
 	token:'token'
 }
 
 	返回值:
 	
-        array(1) {
-          [0]=>
-          array(6) {
-            ["cid"]=>
-            string(1) "6"
-            ["uid_from"]=>
-            string(2) "11"
-            ["uid_to"]=>
-            string(2) "87"
-            ["initiating_time"]=>
-            string(19) "2016-03-20 09:32:15"
-            ["user_to_name"]=>
-            string(6) "zd"
-            ["user_to_avatar_thumb"]=>
-            string(51) "resource/upload/photos/2016020222105247303thumb.png"
-          }
-        }
-
-6.收藏好友添加
-{
-	action:'friendCollectAdd',
-	uid:'11'
-	t_uid:'87'
-	token:'token'
-}
-
-	返回值:
-        
-	{"status":0,"message":"收藏好友成功","data":""}
 	
-	
-7.当前用户创建了多少个没结束的牌局接口
+	array(1) {
+	  [0]=>
+	  array(12) {
+	    ["uccid"]=>
+	    string(3) "195"
+	    ["uid"]=>
+	    string(2) "62"
+	    ["bid"]=>
+	    string(4) "1568"
+	    ["seq"]=>
+	    string(2) "12"
+	    ["hand_card"]=>
+	    string(5) "S4,D7"
+	    ["common_card"]=>
+	    string(17) "S10,D14,S7,H9,H11"
+	    ["type"]=>
+	    string(1) "2"
+	    ["leixing"]=>
+	    string(1) "1"
+	    ["money"]=>
+	    string(3) "606"
+	    ["add_time"]=>
+	    string(19) "2016-03-07 15:28:53"
+	    ["qipai_roundStatus"]=>
+	    int(-1)
+	    ["qipai_opertype"]=>
+	    int(-1)
+	  }
+	}
+
+
+
+6.当前用户创建了多少个没结束的牌局接口
 {
 	action:'userBoardNoEnd',
 	uid:'11'
