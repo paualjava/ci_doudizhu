@@ -1,10 +1,11 @@
-﻿ALTER TABLE `shop_buy_info` ADD `bundle` VARCHAR(800) NOT NULL COMMENT 'bundle' AFTER `product_id`;
+﻿ALTER TABLE  `shop_buy_info` ADD  `diamond` INT( 10 ) NULL DEFAULT  '0' AFTER  `receipt_data` ;
 
 
 CREATE TABLE `shop_buy_info` (
   `bid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增id',
   `uid` int(10) NOT NULL COMMENT '会员编号',
-  `product_id` int(10) NOT NULL COMMENT '产品编号',
+  `product_id` varchar(200) NOT NULL COMMENT '产品编号',
+  `bundle` varchar(800) NOT NULL COMMENT 'bundle',
   `serial_number` varchar(200) NOT NULL COMMENT '序列号',
   `receipt_data` text COMMENT '交易凭证',
   `type` tinyint(1) unsigned NOT NULL COMMENT '1:开始 2:成功 3:失败',

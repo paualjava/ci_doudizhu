@@ -38,6 +38,7 @@
 	serial_number:'serial_number'
 	apptransactionid:'1332'
 	receipt_data:'receipt_data'
+	diamond:'diamond'
 }
 
 	·µ»ØÖµ:
