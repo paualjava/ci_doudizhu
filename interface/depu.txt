@@ -228,6 +228,10 @@
 		string(6) "19.69%"
 		["percent_jiazhu_qipai"]=>//加注弃牌率
 		string(6) "58.80%"
+		["history_max_common"]=>//历史最大牌型 公共牌
+		string(0) ""
+		["history_max_hand"]=>//历史最大牌型 手牌 
+		string(0) ""
 	  }
 	  ["isMyFriend"]=>
 	  bool(true)
