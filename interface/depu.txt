@@ -220,6 +220,14 @@
 	    string(6) "48.53%"
 	    ["percent_qipai"]=>//弃牌率
 	    string(6) "39.80%"
+		["percent_jijin"]=>//激进度
+  		string(2) "0%"
+		["percent_fanpai"]=>//翻牌率
+		string(6) "36.51%"
+		["percent_jiazhu"]=>//加注率
+		string(6) "19.69%"
+		["percent_jiazhu_qipai"]=>//加注弃牌率
+		string(6) "58.80%"
 	  }
 	  ["isMyFriend"]=>
 	  bool(true)
