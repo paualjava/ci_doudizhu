@@ -1,4 +1,6 @@
-﻿ALTER TABLE  `shop_buy_info` ADD  `diamond` INT( 10 ) NULL DEFAULT  '0' AFTER  `receipt_data` ;
+﻿ALTER TABLE `stat_card_collection` CHANGE `money` `money` INT(10) NOT NULL COMMENT '输赢金额';
+
+ALTER TABLE  `shop_buy_info` ADD  `diamond` INT( 10 ) NULL DEFAULT  '0' AFTER  `receipt_data` ;
 
 
 CREATE TABLE `shop_buy_info` (
