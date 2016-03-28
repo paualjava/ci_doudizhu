@@ -1,4 +1,13 @@
-﻿ALTER TABLE `stat_card_collection` CHANGE `money` `money` INT(10) NOT NULL COMMENT '输赢金额';
+﻿ALTER TABLE  `shop` ADD  `sort_order` TINYINT( 4 ) NULL DEFAULT  '0' COMMENT  '排序' AFTER  `ucoin_present` ;
+UPDATE  `shop` SET  `sort_order` =  '50' WHERE  `shop`.`sid` =21 LIMIT 1 ;
+UPDATE  `shop` SET  `sort_order` =  '60' WHERE  `shop`.`sid` =22 LIMIT 1 ;
+UPDATE  `shop` SET  `sort_order` =  '70' WHERE  `shop`.`sid` =12 LIMIT 1 ;
+UPDATE  `shop` SET  `sort_order` =  '80' WHERE  `shop`.`sid` =13 LIMIT 1 ;
+UPDATE  `shop` SET  `sort_order` =  '90' WHERE  `shop`.`sid` =14 LIMIT 1 ;
+UPDATE  `shop` SET  `sort_order` =  '100' WHERE  `shop`.`sid` =26 LIMIT 1 ;
+
+
+ALTER TABLE `stat_card_collection` CHANGE `money` `money` INT(10) NOT NULL COMMENT '输赢金额';
 
 ALTER TABLE  `shop_buy_info` ADD  `diamond` INT( 10 ) NULL DEFAULT  '0' AFTER  `receipt_data` ;
 
