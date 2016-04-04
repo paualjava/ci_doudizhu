@@ -58,9 +58,15 @@
 	  string(1) "0"
 	  ["winProbability"]=>//获胜率
 	  string(6) "50.00%"
+	  ["winProbability3"]=>//3人获胜率
+	  string(6) "50.00%"
+	  ["winProbability4"]=>4人获胜率
+	  string(2) "0%"
+	  ["winProbability_dizhu"]=>地主角色获胜
+	  string(5) "0.00%"
 	  ["winByme"]=>//由我打赢
 	  string(1) "2"
-	  ["winBymePencent"]=>//由我打赢百分百
+	  ["winBymePencent"]=>//由我打赢百分百 — 农民角色获胜
 	  string(6) "50.00%"
 	  ["won"]=>//总盈利
 	  int(90)
