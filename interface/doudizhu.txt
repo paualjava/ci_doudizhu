@@ -2,6 +2,7 @@
 {
 	action:'stat_my_info_doudizhu',
 	uid:'80',
+	t_uid:'80',
 	token:'token',
 }
 
