@@ -69,6 +69,8 @@
 	  ["winBymePencent"]=>//由我打赢百分百 — 农民角色获胜
 	  string(6) "50.00%"
 	  ["won"]=>//总盈利
+	  string(3) "9"
+	  ["winncount"]=>//连胜纪录
 	  int(90)
 	}
 
