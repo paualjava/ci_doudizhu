@@ -11,6 +11,12 @@
 	array(8) {
       ["uname"]=>
       string(6) "Â³ÔÆ"
+      ["grade_name"]=>
+      string(9) "Ð¡ÓãÃç"
+      ["money"]=>
+      string(7) "1001186"
+      ["sex"]=>
+      string(1) "1"
       ["avatar_thumb"]=>
       string(52) "resource/upload/photos/20160126164426202363thumb.png"
       ["signature"]=>
