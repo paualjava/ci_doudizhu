@@ -384,3 +384,54 @@
 	返回值:
         
 	{"status":0,"message":"查询成功","data":["247"]}
+	
+	
+7.单局战绩 点进单局后(输入的是，桌ID和局ID)
+{
+	action:'getLastSeqResult',
+	bid:'2073'
+	seq:'55'
+}
+
+	返回值:
+        
+	  array(5) {
+	  ["commoncard"]=> //公共牌
+	  string(16) "S9|D7|D14|H13|D5"
+	  ["buttonid"]=>
+	  string(2) "75"
+	  ["smallid"]=>  //小忙
+	  string(2) "62"
+	  ["bigid"]=>  //大忙
+	  string(2) "75"
+	  ["info"]=>
+	  array(2) {
+	    [0]=>
+	    array(5) {
+	      ["cards"]=> //手牌
+	      string(6) "H7|C10"
+	      ["uid"]=>
+	      string(2) "75"
+	      ["money"]=>
+	      string(1) "1"
+	      ["date"]=>
+	      string(10) "2016-04-13"
+	      ["time"]=>
+	      string(19) "2016-04-13 14:22:37"
+	    }
+	    [1]=>
+	    array(5) {
+	      ["cards"]=>
+	      string(6) "S11|D2"
+	      ["uid"]=>
+	      string(2) "62"
+	      ["money"]=>
+	      string(2) "-1"
+	      ["date"]=>
+	      string(10) "2016-04-13"
+	      ["time"]=>
+	      string(19) "2016-04-13 14:22:37"
+	    }
+	  }
+	}
+	
