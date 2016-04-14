@@ -409,7 +409,7 @@
 	  array(2) {
 	    [0]=>
 	    array(9) {
-	      ["cards"]=> //大忙
+	      ["cards"]=> //手牌
 	      string(6) "H7|C10"
 	      ["uid"]=>
 	      string(2) "75"
@@ -417,6 +417,8 @@
 	      string(1) "2"
 	      ["roundstatus"]=>//牌桌状态
 	      string(1) "1"
+		  ["opertype"]=>//牌型
+     	  string(1) "2"
 	      ["money"]=>
 	      string(1) "1"
 	      ["date"]=>
@@ -436,8 +438,10 @@
 	      string(2) "62"
 	      ["opertype"]=>
 	      string(1) "2"
-	      ["roundstatus"]=>
+	      ["roundstatus"]=>//牌桌状态
 	      string(1) "1"
+		  ["opertype"]=>//牌型
+     	  string(1) "2"
 	      ["money"]=>
 	      string(2) "-1"
 	      ["date"]=>
