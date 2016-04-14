@@ -395,42 +395,59 @@
 
 	返回值:
         
-	  array(5) {
-	  ["commoncard"]=> //公共牌
+
+	array(5) {
+	  ["commoncard"]=>//公共牌
 	  string(16) "S9|D7|D14|H13|D5"
 	  ["buttonid"]=>
 	  string(2) "75"
-	  ["smallid"]=>  //小忙
+	  ["smallid"]=>//小忙
 	  string(2) "62"
-	  ["bigid"]=>  //大忙
+	  ["bigid"]=> //大忙
 	  string(2) "75"
 	  ["info"]=>
 	  array(2) {
 	    [0]=>
-	    array(5) {
-	      ["cards"]=> //手牌
+	    array(9) {
+	      ["cards"]=> //大忙
 	      string(6) "H7|C10"
 	      ["uid"]=>
 	      string(2) "75"
+	      ["opertype"]=>
+	      string(1) "2"
+	      ["roundstatus"]=>//牌桌状态
+	      string(1) "1"
 	      ["money"]=>
 	      string(1) "1"
 	      ["date"]=>
 	      string(10) "2016-04-13"
 	      ["time"]=>
 	      string(19) "2016-04-13 14:22:37"
+	      ["uname"]=>
+	      string(3) "ayo"
+	      ["avatar_thumb"]=>
+	      string(51) "resource/upload/photos/2016012114492323041thumb.png"
 	    }
 	    [1]=>
-	    array(5) {
+	    array(9) {
 	      ["cards"]=>
 	      string(6) "S11|D2"
 	      ["uid"]=>
 	      string(2) "62"
+	      ["opertype"]=>
+	      string(1) "2"
+	      ["roundstatus"]=>
+	      string(1) "1"
 	      ["money"]=>
 	      string(2) "-1"
 	      ["date"]=>
 	      string(10) "2016-04-13"
 	      ["time"]=>
 	      string(19) "2016-04-13 14:22:37"
+	      ["uname"]=>
+	      string(3) "See"
+	      ["avatar_thumb"]=>
+	      string(52) "resource/upload/photos/20160305142144552399thumb.png"
 	    }
 	  }
 	}
