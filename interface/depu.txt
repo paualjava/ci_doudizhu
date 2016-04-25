@@ -459,8 +459,8 @@
 {
 	action:'userRecommend',
 	uid:'11'
-	t_uid:'87'
 	token:'token'
+	t_uid:'87'
 	phone:'13932322323'
 }	
 
