@@ -455,4 +455,16 @@
 	    }
 	  }
 	}
+8.短信邀请好友 发送成功后需要向服务器发送一个请求把手机号跟自己的uid上传到服务器
+{
+	action:'userRecommend',
+	uid:'11'
+	t_uid:'87'
+	token:'token'
+	phone:'13932322323'
+}	
+
+  	返回值:
+	status = 0;
+	message = "纪录成功";
 	

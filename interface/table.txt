@@ -1,4 +1,12 @@
-﻿ALTER TABLE  `shop` ADD  `sort_order` TINYINT( 4 ) NULL DEFAULT  '0' COMMENT  '排序' AFTER  `ucoin_present` ;
+﻿CREATE TABLE `user_recommend` (
+  `rid` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `uid` int(11) unsigned NOT NULL,
+  `phone` char(20) NOT NULL COMMENT '手机号',
+  `time` datetime NOT NULL COMMENT '添加时间',
+  PRIMARY KEY (`rid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='短信邀请好友' AUTO_INCREMENT=1 ;
+
+ALTER TABLE  `shop` ADD  `sort_order` TINYINT( 4 ) NULL DEFAULT  '0' COMMENT  '排序' AFTER  `ucoin_present` ;
 UPDATE  `shop` SET  `sort_order` =  '50' WHERE  `shop`.`sid` =21 LIMIT 1 ;
 UPDATE  `shop` SET  `sort_order` =  '60' WHERE  `shop`.`sid` =22 LIMIT 1 ;
 UPDATE  `shop` SET  `sort_order` =  '70' WHERE  `shop`.`sid` =12 LIMIT 1 ;
