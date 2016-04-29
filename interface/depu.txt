@@ -461,10 +461,72 @@
 	uid:'11'
 	token:'token'
 	t_uid:'87'
+	name:'tt'
 	phone:'13932322323'
 }	
 
   	返回值:
 	status = 0;
 	message = "纪录成功";
+	
+	
+9.短信邀请好友列表
+{
+	action:'userRecommendList',
+	uid:'11'
+	token:'token'
+	start:'0'
+	count:'30'
+}	
+
+  	返回值:
+	array(2) {
+	  [0]=>
+	  array(5) {
+		["rid"]=>
+		string(1) "2"
+		["phone"]=>
+		string(11) "13918376187"
+		["name"]=>
+		string(2) "ts"
+		["draw_money"]=> //0:未领取 1:已领取
+		string(1) "0"
+		["time"]=>
+		string(19) "2016-04-29 07:42:27"
+	  }
+	  [1]=>
+	  array(5) {
+		["rid"]=>
+		string(1) "1"
+		["phone"]=>
+		string(11) "13918376187"
+		["name"]=>
+		string(0) ""
+		["draw_money"]=> //0:未领取 1:已领取
+		string(1) "0"
+		["time"]=>
+		string(19) "2016-04-29 07:40:30"
+	  }
+	}
+10.短信邀请好友验证
+{
+	action:'userRecommendValid',
+	uid:'11'
+	token:'token'
+	rid:'1'
+}	
+
+  	返回值:
+	array(1) { ["draw_money"]=> string(1) "0" }  //0:未领取 1:已领取
+	
+11.短信邀请好友删除
+{
+	action:'userRecommendDel',
+	uid:'11'
+	token:'token'
+	rid:'1'
+}	
+
+  	返回值:
+	{"status":0,"message":"纪录删除成功","data":""}
 	
