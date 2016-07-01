@@ -530,3 +530,31 @@
   	返回值:
 	{"status":0,"message":"纪录删除成功","data":""}
 	
+12.添加俱乐部管理员机制（权限可以转让，界面可能需要设计），只有管理员可获取所有的牌局的统计数据（报表概念）
+需要添加一个俱乐部管理员的字段，管理员可以通过俱乐部创始人任命 任命管理员需要一个接口
+获取我的俱乐部信息club_my 跟俱乐部详情club_detail的接口都需要返回管理员这个字段 管理员的字段最好是一个数组	 创始人任命谁为管理员
+{
+	action:'club_manager_set',
+	uid:'11'
+	token:'token'
+	cid:'116'
+	uid_create:"65";
+	manager_list:"[1,2,3]"
+}	
+
+  	返回值:
+	{"status":0,"message":"管理员设置成功","data":""}
+	
+	
+13.是获取到通过快速建局的牌桌的接口的 
+{
+	action:'stat_board_history_other',
+	uid:'11'
+	token:'token'
+	beginDate:'2016-02-25 00:00:00'
+	endDate:'2016-02-25 23:59:59'
+	targetuid:'116'
+}	
+
+  	返回值:
+	{"status":0,"message":"查询成功","data":""}

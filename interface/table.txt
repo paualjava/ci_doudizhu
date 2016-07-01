@@ -1,4 +1,6 @@
-﻿CREATE TABLE `user_recommend` (
+﻿ALTER TABLE  `club` ADD  `manager_list` VARCHAR( 200 ) NOT NULL COMMENT  '管理员列表' AFTER  `uid_create`;
+
+CREATE TABLE `user_recommend` (
   `rid` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `uid` int(11) unsigned NOT NULL,
   `phone` char(20) NOT NULL COMMENT '手机号',
